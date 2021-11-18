@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Contact Us</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+   <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500&display=swap" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css2?family=Literata:ital,wght@1,500&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Bitter:wght@500&display=swap" rel="stylesheet">
+  </head>
+  <body class="contact">
+      <section class="nav-bar">
+    <nav>    
+      <ul>
+        <li><a href="login.html">Login</a></li>
+        <li><a href="signin.html">Sign-up</a></li>
+        <li><img src="images/cart.png" width="35px" height="30px"></li>
+      </ul>
+    </nav>
+    </section>
+    <section class="nav-bar">
+       <nav>
+        <ul>
+          <li ><a href="index.html">Home</a></li>
+          <li><a href="men.html" >Men</a></li>
+          <li><a href="women.html" >Women</a></li>
+          <li><a href="aboutus.html">About Us</a></li>
+          <li  id="wmn"><a href="contact.html">Contact Us</a></li>
+        </ul>
+      </nav>
+    </section>
+    <div style="position:absolute;top:10px;left:50px;"><img src="images/logo.png" color="white" width="100px" height="100px" ></div>
+    <div style="position:absolute;top:40px;left:160px;color:white;font-size:40px;">ShopStyle</div>
+    <div style="position:absolute;top:90px;left:210px;color:white;font-size:17px;">Where fashion comes to life !</div>
+    <div class="search" style="position:absolute;top:25px;left:550px;"><input type="search" placeholder="Search for a product..."></div>
+    <h1 class="contacth1">Contact Us</h1>    
+    <form action="submit.html" class="formc" name="formct" onsubmit="return validateForm2()" method="post">
+      <label for="name">Full name : </label><br>
+      <input  type="text" name="name"  placeholder="Keerthana" ><br><br>
+      <label>Mobile Number : </label><br>
+     <input type="text" name="number"  placeholder="1234567891" ><br><br>
+      <label>Email : </label><br>
+      <input type="email" name="email" placeholder="abc@gmail.com">
+      <br><br><label>Country :</label><br>
+     <select name="country">
+        <option></option>
+        <option value="India">India</option>
+        <option value="USA">USA</option>
+        <option value="Russia">Russia</option>
+        <option value="China">China</option>
+        <option value="UAE">UAE</option>
+        <option value="Canada">Canada</option>
+        <option value="Australia">Australia</option>
+        <option value="Japan">Japan</option>
+        <option value="England">England</option>
+        <option value="Netherlands">Netherlands</option>
+        <option value="Serbia">Serbia</option>
+        <option value ="Other">Other</option>
+      </select><br><br>
+      <label>Query : </label><br>
+     <textarea name="message" placeholder="Write your query in detail"  rows="5" cols="68"></textarea><br><br>
+      <input id="btn" type="submit" value="Send" name="query">
+    </form>
+    <div style="position:absolute;color:white;font-size:20px;top:590px;right:150px;"> <u><b>Office Address :</b></u> <br>4-56-301 <br> Shaikpet <br> Hyderabad .<br>Mobile : 9999988888 </div>
+    <div class="foot" style="position:absolute;bottom:-110px;">
+      <p>Designed by Keerthana Pravallika</p>
+      <p>Email : keerthanapravallika@gmail.com</p>
+      <p>ShopStyle.com &copy; 2020 . All rights reserved</p>
+    </div>
+    <script src="script.js"></script>
+  </body>

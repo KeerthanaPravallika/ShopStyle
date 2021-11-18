@@ -1,0 +1,407 @@
+body{
+  margin:0px auto;
+  width:100%;
+}
+/*nav bar styling*/
+
+.nav-bar nav ul li {
+  list-style-type: none;
+  float: left;
+  padding-right: 4.5rem;
+  color:white;
+  font-size:20px;
+  font-family: 'Averia Serif Libre', cursive;
+}
+.nav-bar nav ul{
+  float:right;
+  padding-right: 60px;
+}
+.nav-bar nav {
+  width:100%;
+  height:70px;
+  background : 	#0F1111;
+
+}
+.nav-bar #wmn{
+  background-color: #8d8b8b;
+  padding:8px;
+  margin-right: 20px;
+  margin-top:-8px;
+  
+}
+#sales{
+ padding-left:20px;
+}
+.nav-bar nav ul li a  , .shop a{
+  text-decoration: none;
+  color:white;
+}
+/* search bar*/
+input[type=search]{
+  width:150%;
+  height:35px;
+  box-sizing: border-box;
+	border: 2px solid8FE;
+  font-size: 14px;
+	background-color: #E3E8FE;
+  background-image: url('search1.png');
+  background-position: 7px 8px;
+  background-repeat: no-repeat;
+  padding-left: 35px;
+}
+/*slider images*/
+
+.slider img
+{
+  width:1300px;
+  height:470px;
+  margin-top: 30px;
+}
+.index{
+  background-image: url("images/homeBackground.jpg");
+  background-repeat: no-repeat;
+  background-size:cover;
+}
+.indexmid{
+  color:black;
+  font-size:30px;
+  margin-top:50px;
+  line-height:40px;
+  margin-bottom:-40px;
+  font-family: 'Lora', serif;
+}
+
+nav ul li a:hover{
+  color:red;  
+}
+/*images in home page*/
+
+.homemen img{
+  width:600px;
+  height: 400px;
+  float:left;
+}
+.homemen{
+  margin-top:90px;
+  margin-left:60px;
+}
+/* sign in page and login page*/
+
+.signin{
+  background-image:url("images/signin.jpg");
+  background-size:cover;
+  background-repeat: no-repeat;
+}
+
+.form input, .form select {
+  width:500px;
+  height:30px;  
+  margin-left: 50px;
+}
+.formc input , .formc select
+{
+  width:500px;
+  height:30px;
+}
+.form label{
+  color:black;
+  font-size:18px;
+  padding-left:15px;
+  font-family: 'Quicksand', sans-serif; 
+  margin-left: 40px;
+}
+
+h1{
+  color:black;
+  font-size:35px;
+  font-family: 'Bitter', serif;
+  line-height:25px;
+}
+.loginh
+{
+  margin-left:220px;
+}
+.formt span{
+  color:black;
+  font-size: 20px;
+}
+
+#btn 
+{
+  height:40px;
+  width:120px;
+  border-radius: 75px;
+  font-size: 16px;
+  background-color:rgb(0, 25, 250);
+  color:white;
+}
+#btn:hover  {
+  background-color: rgb(17, 250, 41);
+  cursor: pointer;
+  color:black;
+}
+
+
+.shop:hover {
+  background-color:rgba(0, 25, 250, 0.849);
+  cursor: pointer;
+  color:white;
+}
+
+.contact
+{
+ background-image:url("images/contact.jpg");
+  background-size:cover;
+  background-repeat: no-repeat;
+  
+
+}
+input{
+  border: 2px solid #8d8b8b;
+}
+.form textarea {
+    padding: 10px;
+    line-height: 1.5;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-shadow: 1px 1px 1px #999;
+}
+.submitBg
+{
+ 
+   background-image: url("images/querybg.jpg");
+  background-size:cover;
+  background-repeat: no-repeat;
+}
+
+.loginh1{
+  padding-top: 130px;
+  color:black;
+  margin-left:50px;
+}
+#signh1m{
+   margin-left:100px;
+}
+#signh1{
+   margin-left:150px;
+}
+.formc label{
+  color:black;
+  font-size:22px;
+  font-family: 'Quicksand', sans-serif;
+  
+}
+.formc{
+  padding-left: 50px;
+}
+.cancel{
+  height:40px;
+  width:120px;
+  border-radius: 75px;
+  font-size: 16px;
+  background-color:red;
+  margin-left:120px;
+  margin-right:10px;
+}
+.cancel:hover{
+  background-color: rgb(17, 250, 41);
+  cursor: pointer;
+  color:black;
+}
+.cancel a{
+  text-decoration: none;
+  color:white;
+}
+
+.contacth1{
+  padding-left: 50px;
+  color:black;
+  font-family: 'Cinzel', serif;
+}
+.formc #btn{
+  margin-left: 160px;
+}
+
+.formc label{
+  font-family: 'Literata', serif;
+}
+.womenh1{
+  color:black;
+  padding-bottom: 30px;
+   padding-top: 30px;
+   font-size:40px;
+}
+.wmimg{
+  width:250px;
+  height:350px;
+   
+}
+.men div{
+  margin-left: 40px;
+  margin-right: 20px;
+}
+.women div , .homemen {
+  float: left;
+  margin-left: 40px;
+  margin-right: 20px;
+  margin-bottom: 50px;
+  border:3px solid black;
+  padding:26px;
+
+}
+.homemen
+{
+  margin-left:50px;
+}
+.women a{
+  color:black;
+}
+.women p{
+  font-size:20px;
+  font-family: 'Bitter', serif;
+  line-height: 10px;
+}
+.homemen:hover , .women div:hover{
+    cursor: pointer;
+    box-shadow:0 0.4rem 1.4rem 0 rgba(78,115,0, 0.5);
+    transform: translateY(-0.6rem);
+    transition: transform 150ms;
+
+}
+.homemen[disabled]:hover , .women div[disabled]:hover {
+    cursor: not-allowed;
+    box-shadow: none;
+    transform: none;
+}
+
+.btncart , .shop{
+  width:160px;
+  height:40px;
+  margin-left: 50px;
+  background-color: blue;
+  color:white;
+  border-radius: 75px;
+  border:transparent;
+  font-size:17px;
+  font-family: 'Bitter', serif;
+}
+.shop{
+  margin-left:200px;
+  margin-top:30px;
+  background-color: rgb(18, 243, 48);
+}
+
+.men , .wm{
+  background-image: url("images/menwmbg.jfif");
+   background-size:cover;
+  background-repeat: no-repeat;
+}
+
+.men1bg{
+  background-color:rgb(0, 0, 0);
+}
+
+.men1bg div{
+  color:white;
+}
+.men1bg .name{
+  font-size: 40px;
+  font-family: 'Hepta Slab', serif;
+}
+.men1bg .initpr{
+  text-decoration: line-through;
+  font-size:20px;
+  font-family: 'Kreon', serif;
+}
+.men1bg .fpr{
+  font-size:28px;
+  font-family: 'Kreon', serif;
+}
+.men1bg .del , .men1bg .size{
+  font-size: 20px;
+  font-family: 'Kreon', serif;
+}
+
+.men1bg div div{
+  float:left;  
+}
+.men1bg div div .wmimg{
+  width:400px;
+  height: auto;
+  margin-left: 250px;
+  margin-top:90px;
+}
+.men1bg  .matter{
+  margin-top: 80px;
+  margin-left: 50px;
+}
+.cross a 
+{  
+  color:white;
+  text-decoration: none;
+  font-size: 20px;
+  border:2px solid #999;
+  border-radius: 20px;
+  padding:8px;
+}
+
+.aboutus .aboutimg {
+ float:left;
+ margin-left:150px;
+ margin-right: 30px;
+ margin-top:-70px;
+ 
+}
+.aboutm{
+  margin-top:100px;
+  font-size:20px;
+  line-height: 30px;
+  text-align: justify;
+  margin-right:230px;
+ font-family: 'Literata', serif;
+}
+.com .aboutm{
+  margin-left:180px;
+  margin-right:230px;
+  margin-top:-10px;
+}
+.aboutus1 .aboutimg {
+ float:right;
+ margin-right: 190px;
+ margin-top:-70px;
+ margin-left:30px;
+}
+.aboutm1{
+  margin-top:150px;
+  font-size:20px;
+  line-height: 30px;
+  text-align: justify;
+  margin-left:160px;
+ font-family: 'Literata', serif;
+}
+
+.abouth1{
+  padding-top:100px;
+  color:black;
+  margin-top:-1.1%;
+  font-size:60px;
+  font-family: 'Playfair Display', serif;
+}
+.aboutbg{
+ background-image:url("images/about.jfif");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.foot{
+  color:white;
+  background-color: #0F1111;
+  width:100%;
+  text-align: center;
+  line-height: 10px;
+  font-size:18px;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+ 
+}
